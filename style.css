@@ -1,0 +1,150 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Lato;
+}
+.heading1{
+  background-color: darkblue;
+  width: 100%;
+  padding: 10px  0;
+  color: #fff;
+  font-size: 20px;
+}
+.container{
+  width: 55%;
+  margin: 0 auto;
+}
+
+.form{
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.form > .header{
+  margin: 10px 0;
+  font-size: 30px;
+  color:#444;
+  font-weight: 600;
+}
+
+.form > h4{
+  color: #aaa;
+  margin: 0 0;
+}
+
+.form > .inputbox > input[type="text"]{
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  outline : none;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.about-user{
+  padding: 10px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+.user-profile{
+  grid-column: 1 / 2;
+  height: auto;
+}
+
+.user-stats{
+  grid-column: 2 / 5;
+}
+
+.user-profile > div > img{
+  width: 100%;
+  height: auto;
+}
+
+.user-profile > div > a{
+  display: block;
+  width: 100%;
+  background-color: steelblue;
+  padding: 8px 0;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  color: #ddd;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.stats{
+  width: 100%;
+}
+
+.stats > div{
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 14px;
+  color: #eee;
+  border-radius: 5px;
+}
+
+.stats2{
+  margin: 10px 0;
+}
+
+.stats2 > div{
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+}
+
+.public-repos , .stars{
+  background-color: steelblue;
+}
+
+.public-gists{
+  background-color: #999;
+}
+
+.following , .watchers{
+  background-color: forestgreen;
+}
+
+.follower{
+  background-color: slateblue;
+}
+
+.latest-repos{
+  width:100%;
+  box-sizing:border-box;
+}
+
+.latest-repos > div{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.forks{
+  background-color: salmon;
+}
+
+.stars , .watchers , .forks{
+  display: inline-block;
+  font-size: 15px;
+  margin-right: 10px;
+  color: #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
